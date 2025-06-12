@@ -1,0 +1,79 @@
+# Build Results
+bin/
+obj/
+[Ll]og/
+*.log
+
+# User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# VS Code
+.vscode/
+
+# Visual Studio
+.vs/
+.vscode/
+*.dbmdl
+*.bak
+*.backup
+*.cache
+*.pdb
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# IIS Express
+.vs/
+iisexpress/
+
+# Rider
+.idea/
+
+# Npm & Node
+node_modules/
+
+# Dotnet CLI
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Logs
+*.log
+*.tlog
+
+# Test Results
+TestResults/
+*.trx
+*.coverage
+*.coveragexml
+*.testresults
+
+# Database
+*.mdf
+*.ldf
+
+# Others
+*.ncb
+*.sdf
+*.opensdf
+*.db
+
+# Resharper
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+
+# Windows image thumbnail cache
+Thumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Python cache
+_pycache_/
+
+# Mac
+.DS_Store
