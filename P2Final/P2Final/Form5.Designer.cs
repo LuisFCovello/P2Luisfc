@@ -36,7 +36,7 @@
             label2 = new Label();
             label3 = new Label();
             label4 = new Label();
-            lbTotalPedido = new Label();
+            lblTotalPedido = new Label();
             btnBuscarClientes = new Button();
             btnAdicionar = new Button();
             btnExcluir = new Button();
@@ -113,15 +113,15 @@
             label4.TabIndex = 7;
             label4.Text = "Quantidade";
             // 
-            // lbTotalPedido
+            // lblTotalPedido
             // 
-            lbTotalPedido.AutoSize = true;
-            lbTotalPedido.Font = new Font("Segoe UI", 12F);
-            lbTotalPedido.Location = new Point(23, 254);
-            lbTotalPedido.Name = "lbTotalPedido";
-            lbTotalPedido.Size = new Size(52, 21);
-            lbTotalPedido.TabIndex = 8;
-            lbTotalPedido.Text = "label5";
+            lblTotalPedido.AutoSize = true;
+            lblTotalPedido.Font = new Font("Segoe UI", 12F);
+            lblTotalPedido.Location = new Point(23, 254);
+            lblTotalPedido.Name = "lblTotalPedido";
+            lblTotalPedido.Size = new Size(52, 21);
+            lblTotalPedido.TabIndex = 8;
+            lblTotalPedido.Text = "label5";
             // 
             // btnBuscarClientes
             // 
@@ -181,7 +181,7 @@
             Controls.Add(btnExcluir);
             Controls.Add(btnAdicionar);
             Controls.Add(btnBuscarClientes);
-            Controls.Add(lbTotalPedido);
+            Controls.Add(lblTotalPedido);
             Controls.Add(label4);
             Controls.Add(label3);
             Controls.Add(label2);
@@ -207,7 +207,7 @@
         private Label label2;
         private Label label3;
         private Label label4;
-        private Label lbTotalPedido;
+        private Label lblTotalPedido;
         private Button btnBuscarClientes;
         private Button btnAdicionar;
         private Button btnExcluir;
