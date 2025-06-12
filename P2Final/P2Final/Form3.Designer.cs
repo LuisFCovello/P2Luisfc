@@ -66,6 +66,7 @@
             btnExcluir.TabIndex = 2;
             btnExcluir.Text = "Excluir";
             btnExcluir.UseVisualStyleBackColor = true;
+            btnExcluir.Click += btnExcluir_Click;
             // 
             // txtSenha
             // 
@@ -108,6 +109,7 @@
             dgvUsuarios.Name = "dgvUsuarios";
             dgvUsuarios.Size = new Size(432, 299);
             dgvUsuarios.TabIndex = 7;
+            dgvUsuarios.CellContentClick += dgvUsuarios_CellContentClick;
             // 
             // frmUsuarios
             // 
