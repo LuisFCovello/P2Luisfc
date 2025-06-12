@@ -1,6 +1,6 @@
 ﻿namespace P2Final
 {
-    partial class Form1
+    partial class frmLogin
     {
         /// <summary>
         ///  Required designer variable.
@@ -28,52 +28,80 @@
         /// </summary>
         private void InitializeComponent()
         {
-            textBox1 = new TextBox();
-            textBox2 = new TextBox();
-            button1 = new Button();
+            txtUsuario = new TextBox();
+            txtSenha = new TextBox();
+            btnLolgin = new Button();
+            label1 = new Label();
+            label2 = new Label();
             SuspendLayout();
             // 
-            // textBox1
+            // txtUsuario
             // 
-            textBox1.Location = new Point(41, 94);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(180, 23);
-            textBox1.TabIndex = 0;
+            txtUsuario.Location = new Point(41, 94);
+            txtUsuario.Name = "txtUsuario";
+            txtUsuario.Size = new Size(180, 23);
+            txtUsuario.TabIndex = 0;
             // 
-            // textBox2
+            // txtSenha
             // 
-            textBox2.Location = new Point(41, 158);
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(180, 23);
-            textBox2.TabIndex = 1;
+            txtSenha.Location = new Point(41, 158);
+            txtSenha.Name = "txtSenha";
+            txtSenha.Size = new Size(180, 23);
+            txtSenha.TabIndex = 1;
             // 
-            // button1
+            // btnLolgin
             // 
-            button1.Location = new Point(90, 220);
-            button1.Name = "button1";
-            button1.Size = new Size(75, 23);
-            button1.TabIndex = 2;
-            button1.Text = "button1";
-            button1.UseVisualStyleBackColor = true;
+            btnLolgin.Location = new Point(90, 220);
+            btnLolgin.Name = "btnLolgin";
+            btnLolgin.Size = new Size(75, 23);
+            btnLolgin.TabIndex = 2;
+            btnLolgin.Text = "Login";
+            btnLolgin.UseVisualStyleBackColor = true;
+            btnLolgin.Click += btnLolgin_Click;
             // 
-            // Form1
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Font = new Font("Segoe UI", 15F);
+            label1.Location = new Point(41, 63);
+            label1.Name = "label1";
+            label1.Size = new Size(79, 28);
+            label1.TabIndex = 3;
+            label1.Text = "Usuario";
+            // 
+            // label2
+            // 
+            label2.AutoSize = true;
+            label2.Font = new Font("Segoe UI", 15F);
+            label2.Location = new Point(41, 127);
+            label2.Name = "label2";
+            label2.Size = new Size(65, 28);
+            label2.TabIndex = 4;
+            label2.Text = "Senha";
+            // 
+            // frmLogin
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(265, 361);
-            Controls.Add(button1);
-            Controls.Add(textBox2);
-            Controls.Add(textBox1);
-            Name = "Form1";
+            Controls.Add(label2);
+            Controls.Add(label1);
+            Controls.Add(btnLolgin);
+            Controls.Add(txtSenha);
+            Controls.Add(txtUsuario);
+            Name = "frmLogin";
             Text = "Form1";
+            Load += frmLogin_Load;
             ResumeLayout(false);
             PerformLayout();
         }
 
         #endregion
 
-        private TextBox textBox1;
-        private TextBox textBox2;
-        private Button button1;
+        private TextBox txtUsuario;
+        private TextBox txtSenha;
+        private Button btnLolgin;
+        private Label label1;
+        private Label label2;
     }
 }
